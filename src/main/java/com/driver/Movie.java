@@ -5,10 +5,10 @@ public class Movie {
     private int durationInMinutes;
     private double imdbRating;
 
-    public Movie(String name, int durationInMinutes, double imbRating) {
+    public Movie(String name, int durationInMinutes, double imdbRating) {
         this.name = name;
         this.durationInMinutes = durationInMinutes;
-        this.imdbRating = imbRating;
+        this.imdbRating = imdbRating;
     }
 
     public String getName() {
@@ -27,11 +27,11 @@ public class Movie {
         this.durationInMinutes = durationInMinutes;
     }
 
-    public double getImbRating() {
+    public double getImdbRating() {
         return imdbRating;
     }
 
-    public void setImbRating(double imdbRating) {
+    public void setImdbRating(double imdbRating) {
         this.imdbRating = imdbRating;
     }
 }
