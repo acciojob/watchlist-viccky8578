@@ -19,19 +19,19 @@ public class Movie {
         this.name = name;
     }
 
-    public String getDurationInMinute() {
+    public String getDurationInMinutes() {
         return durationInMinutes;
     }
 
-    public void setDurationInMinute(String durationInMinute) {
-        this.durationInMinutes = durationInMinute;
+    public void setDurationInMinutes(String durationInMinutes) {
+        this.durationInMinutes = durationInMinutes;
     }
 
     public double getImbRating() {
         return imdbRating;
     }
 
-    public void setImbRating(double imbRating) {
-        this.imdbRating = imbRating;
+    public void setImbRating(double imdbRating) {
+        this.imdbRating = imdbRating;
     }
 }
